@@ -1,28 +1,9 @@
+/****************************************** TAG SELECTORS ******************************************/
+
     body {
         background-color: #e4f2f0;
         font-family: inherit;
     }
-
-    .date {
-        width: 70px;
-    }
-
-    .company {
-        width: 160px;
-    }
-    .work {
-            width: 160px;
-        }
-    
-    .main_responsibilities {
-        width: 80%;
-    }    
-
-    .responsibilities {
-        width: 95%;
-        text-align: justify;
-    }
-
 
     h1 {
         color: #66bfbf;
@@ -38,4 +19,43 @@
         border-color:#99d8d0;
         border-width: 5px;
         width: 90%;
+    }
+
+
+
+
+/****************************************** CLASS SELECTORS ******************************************/
+
+    .date {
+        width: 70px;
+    }
+
+    .position {
+        font-size: 12px;
+        width: 90%;
+    }
+
+    .main_responsibilities {
+        width: 80%;
+    }    
+
+    .responsibilities {
+        text-align: justify;
+        width: 95%;
+    }
+
+    .work {
+            width: 90%;
+        }
+
+    .hobbies:hover {
+        background-color:#99d8d0;
+    }
+
+    .contact:hover {
+        background-color:#99d8d0;
+    }
+
+    .samoyed:hover {
+        background-color:#99d8d0;
     }
