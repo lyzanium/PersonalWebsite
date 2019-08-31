@@ -3,6 +3,27 @@
         font-family: inherit;
     }
 
+    .date {
+        width: 70px;
+    }
+
+    .company {
+        width: 160px;
+    }
+    .work {
+            width: 160px;
+        }
+    
+    .main_responsibilities {
+        width: 80%;
+    }    
+
+    .responsibilities {
+        width: 95%;
+        text-align: justify;
+    }
+
+
     h1 {
         color: #66bfbf;
 
