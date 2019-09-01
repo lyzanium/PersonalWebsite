@@ -1,61 +1,100 @@
 /****************************************** TAG SELECTORS ******************************************/
 
-    body {
-        background-color: #e4f2f0;
-        font-family: inherit;
-    }
+body {
+    background-color: #e4f2f0;
+    font-family: sans-serif;
+}
 
-    h1 {
-        color: #66bfbf;
+h1 {
+    color: #66bfbf;
+}
 
-    }
+h3 {
+    color: #66bfbf;
+}
 
-    h3 {
-        color: #66bfbf;
-    }
+hr {
+    border-style: dotted none none;
+    border-color: #99d8d0;
+    border-width: 5px;
+    width: 90%;
+}
 
-    hr {
-        border-style: dotted none none;
-        border-color:#99d8d0;
-        border-width: 5px;
-        width: 90%;
-    }
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
 
+ul li {
+    list-style: none;
+    margin: 0 20px;
+    transition: 0.5s;
+}
 
+ul li a {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #66bfbf;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+ul:hover li a {
+    transform: scale(1.5);
+    opacity: .2;
+    filter: blur(5px);
+}
+
+ul li a:hover {
+    transform: scale(2);
+    opacity: 1;
+    filter: blur(0);
+}
 
 
 /****************************************** CLASS SELECTORS ******************************************/
 
-    .date {
-        width: 70px;
-    }
+.date {
+    width: 70px;
+}
 
-    .position {
-        font-size: 12px;
-        width: 90%;
-    }
+.position {
+    font-size: 12px;
+    width: 90%;
+}
 
-    .main_responsibilities {
-        width: 80%;
-    }    
+.main_responsibilities {
+    width: 80%;
+}
 
-    .responsibilities {
-        text-align: justify;
-        width: 95%;
-    }
+.responsibilities {
+    text-align: justify;
+    width: 95%;
+}
 
-    .work {
-            width: 90%;
-        }
+.work {
+    width: 90%;
+}
 
-    .hobbies:hover {
-        background-color:#99d8d0;
-    }
+.hobbies:hover {
+    background-color: #99d8d0;
+}
 
-    .contact:hover {
-        background-color:#99d8d0;
-    }
+.contact:hover {
+    background-color: #99d8d0;
+}
 
-    .samoyed:hover {
-        background-color:#99d8d0;
-    }
+.samoyed:hover {
+    background-color: #99d8d0;
+}
+
+.links {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
